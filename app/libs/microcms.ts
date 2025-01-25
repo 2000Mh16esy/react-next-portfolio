@@ -43,6 +43,7 @@ export const getMembersList= async (queries?:MicroCMSQueries) => {
         endpoint: "members",
         queries,
     });
+    console.log(listData)
 return listData;
 }
 

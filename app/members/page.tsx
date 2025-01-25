@@ -2,6 +2,7 @@ import Image from "next/image";
 import { getMembersList } from "../libs/microcms";
 import { MEMBERS_LIST_LIMIT } from "@/app/constants";
 import styles from "./page.module.css";
+import { log } from "console";
 export default async function Page() {
   const data = await getMembersList({ limit: MEMBERS_LIST_LIMIT });
   return (

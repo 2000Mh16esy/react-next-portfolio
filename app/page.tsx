@@ -13,14 +13,14 @@ export default async function Home() {
     <>
       <section className={styles.top}>
         <div>
-          <h1 className={styles.title}>テクノロジの力で世界を変える</h1>
+          <h1 className={styles.title}>The Happiest Days of My Life</h1>
           <p className="description">
-            私たちは市場をリードしているゴローバルテックカンパニーです。
+            The days I knew how to smile and people who made me smile.
           </p>
         </div>
         <Image
           className={styles.bgimg}
-          src="/img-mv.jpg"
+          src="/bg-img.jpg"
           alt=""
           width={4000}
           height={1200}
