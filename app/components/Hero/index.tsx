@@ -14,7 +14,7 @@ export default function Hero({ title, sub }: Props) {
         <p className={styles.sub}>{sub}</p>
       </div>
       <Image
-        className={styles.bgimg}S
+        className={styles.bgimg}
         src="/hero.jpg"
         alt=""
         width={4000}
