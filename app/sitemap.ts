@@ -1,7 +1,7 @@
 import {MetadataRoute} from "next";
 import { getAllCategoryList, getAllNewsList } from "./libs/microcms";
 
-const buildUrl = (path?: string) => `http://localhost:3000${path ?? ""}`;
+const buildUrl = (path?: string) => `https://react-next-portfolio-psi.vercel.app${path ?? ""}`;
 
 export default async function sitemap(): Promise <MetadataRoute.Sitemap> {
     const newsContents = await getAllNewsList();
