@@ -13,9 +13,10 @@ export default async function Home() {
     <>
       <section className={styles.top}>
         <div>
-          <h1 className={styles.title}>The Happiest Days of My Life</h1>
+          <h1 className={styles.title}>The Story of My Life</h1>
           <p className="description">
-            The days I knew how to smile and people who made me smile.
+            The days I knew how to smile and people who made me smile.The days
+            of Dramas.The days of Rainbow.The days of "Looser".
           </p>
         </div>
         <Image
